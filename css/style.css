@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  background-color: #333;
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  color: orange;
+}
+
+h1 {
+  margin: 1em 0;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 1s;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-top: 0.625rem;
+}
+
+h1:hover {
+  transform: scale(1.5);
+}
+
+nav {
+  background: linear-gradient(#333, #999, #444);
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0.2em;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1em 2em;
+}
+
+nav ul li a:hover {
+  color: black;
+  background: linear-gradient(#333, orange, #444);
+}
+
+main {
+  background-color: #444;
+  padding: 1em;
+}
+
+main > section {
+  max-width: 600px;
+  margin: auto;
+}
+
+main p,
+main ul {
+  margin: 1em 0;
+  line-height: 1.5;
+}
+
+footer {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
